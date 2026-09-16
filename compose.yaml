@@ -1,0 +1,4 @@
+# Vorlage: Services, Versionen, Volumes und Netzwerke noch festlegen.
+# Noch nicht startbereit.
+name: kaiser
+services: {}

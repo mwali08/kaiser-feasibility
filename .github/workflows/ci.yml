@@ -1,0 +1,9 @@
+# Manuell ausloesbare Vorlage; noch keine Code- oder Funktionstests.
+name: Scaffold notice
+on:
+  workflow_dispatch:
+jobs:
+  notice:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'CI-Platzhalter - echte Tests noch konfigurieren'
