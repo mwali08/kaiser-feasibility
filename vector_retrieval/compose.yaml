@@ -13,5 +13,27 @@ services:
     restart: unless-stopped
 
 
+  vector_retrieval:
+    build:
+      context: .
+
+    container_name: kaiser-vector-retrieval
+
+    depends_on:
+      - qdrant
+
+    env_file:
+      - .env
+
+    ports:
+      - "8001:8001"
+
+    volumes:
+      - huggingface_cache:/root/.cache/huggingface
+
+    restart: unless-stopped
+
+
 volumes:
   qdrant_data:
+  huggingface_cache:
