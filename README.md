@@ -1,3 +1,4 @@
+```
 kaiser/
 ├── README.md                         # Projektübersicht und gemeinsame Startanleitung
 ├── compose.yaml                      # Gemeinsame Services und Netzwerk
@@ -102,3 +103,4 @@ kaiser/
         ├── orchestration_webhook.md # FastAPI ↔ n8n
         ├── vector_tool.md           # results: text, source, date
         └── graph_tool.md            # triples: subject, predicate, object
+```
