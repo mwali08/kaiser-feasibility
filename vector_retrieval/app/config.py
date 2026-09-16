@@ -3,8 +3,10 @@ from pathlib import Path
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
-DATA_DIR = PROJECT_ROOT / "data"
+VECTOR_RETRIEVAL_ROOT = Path(__file__).resolve().parents[1]
+KAISER_ROOT = VECTOR_RETRIEVAL_ROOT.parent
+
+DATA_DIR = VECTOR_RETRIEVAL_ROOT / "data"
 
 
 class Settings(BaseSettings):
@@ -17,7 +19,7 @@ class Settings(BaseSettings):
     vector_top_k: int = 3
 
     model_config = SettingsConfigDict(
-        env_file=PROJECT_ROOT / ".env",
+        env_file=KAISER_ROOT / ".env",
         env_file_encoding="utf-8",
         extra="ignore",
     )

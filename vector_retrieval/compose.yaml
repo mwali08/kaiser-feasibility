@@ -23,7 +23,7 @@ services:
       - qdrant
 
     env_file:
-      - .env
+      - ../.env
 
     ports:
       - "8001:8001"
