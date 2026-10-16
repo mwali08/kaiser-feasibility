@@ -6,7 +6,7 @@ Here, team members can test different technologies, evaluate components, and bui
 
 ---
 
-## 🎯 Purpose of this Repository
+## Purpose of this Repository
 - **Technology Evaluation:** Testing and comparing various frameworks, libraries, and tools.
 - **Prototyping (PoC):** Building functional prototypes to validate technical feasibility.
 - **Pipeline & Infrastructure Tests:** Experimenting with CI/CD pipelines and deployment strategies.
