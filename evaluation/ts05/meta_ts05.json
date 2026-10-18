@@ -1,0 +1,16 @@
+{
+  "ollama_gguf": {
+    "ladezeit_ms": 7252.554799997597,
+    "warmup_error": null,
+    "ram_peak_gb": 0.097,
+    "ram_delta_gb": 0.001,
+    "ram_system_delta_gb": 1.142
+  },
+  "llamacpp_gguf": {
+    "ladezeit_ms": 2990.059099989594,
+    "warmup_error": null,
+    "ram_peak_gb": 4.76,
+    "ram_delta_gb": 0.121,
+    "ram_system_delta_gb": 0.248
+  }
+}
