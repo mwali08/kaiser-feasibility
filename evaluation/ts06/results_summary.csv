@@ -1,0 +1,5 @@
+﻿stufe;n_anfragen;n_gueltig;ungueltig_quote_pct;antwortqualitaet_mean;antwortqualitaet_std;deutschqualitaet_mean;deutschqualitaet_std;faithfulness_mean;faithfulness_std;faktentreffer_pct;ttft_ms_mean;ttft_ms_std;ttft_ms_median;tps_mean;tps_std;total_latency_ms_mean;token_count_mean;vram_gb;bpw;antwortlaenge_zeichen_mean;ram_peak_gb;ladezeit_s;antwortlaenge_abw_pct;qualitaetsverlust;qualitaetsverlust_ci95_unten;qualitaetsverlust_ci95_oben;aehnlichkeit_zur_referenz_pct;faktentreffer_verlust_pp;schwelle_eingehalten;empfohlen;referenzstufe;status
+q4_K_M;9,0;9,0;0,0;4,333;1,0;5,0;0,0;5,0;0,0;66,667;3121,328;1359,474;2279,91;13,932;0,874;4982,667;25,667;;4,8;83,333;0,098;5,977;-11,032;0,0;0,0;0,0;93,596;0,0;True;True;False;getestet
+q6_K;9,0;9,0;0,0;4,333;1,0;5,0;0,0;5,0;0,0;66,667;3411,996;1836,179;2277,373;10,429;0,807;6282,808;29,333;;6,5;93,667;0,097;5,187;0,0;0,0;0,0;0,0;100,0;0,0;True;False;False;getestet
+q8_0;9,0;9,0;0,0;4,333;1,0;5,0;0,0;5,0;0,0;66,667;4657,536;3869,443;2318,396;8,476;0,599;8194,572;29,333;;8,5;93,667;0,098;6,373;0,0;0,0;0,0;0,0;100,0;0,0;True;False;True;getestet
+fp16;;;;;;;;;;;;;;;;;;;16,0;;;;;;;;;;;;;nicht getestet
