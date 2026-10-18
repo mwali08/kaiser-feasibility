@@ -1,0 +1,3 @@
+﻿variante;bezeichnung;n_laeufe;fehlerrate_pct;latenz_ms_median;latenz_ms_mean;latenz_ms_std;latenz_ms_p95;tokens_mean;ram_peak_gb_mean;ram_peak_gb_max;antwortqualitaet_mean;antwortqualitaet_std;deutschqualitaet_mean;trefferquote_pct;halluzinationsrate_pct;latenz_inkl_judge_ms_median;latenz_inkl_judge_ms_p95;tokens_inkl_judge_mean;routing_genauigkeit_pct;critic_ablehnung_pct;critic_ungueltig_pct;secondary_als_final_pct
+A;A: Primary allein;12;0,0;6753,994;7363,843;2330,745;11742,37;38,167;0,037;0,037;4,583;0,793;5,0;75,0;25,0;;;;;;;
+B;B: Gesamtstack;12;0,0;71298,772;78467,899;25644,984;121060,152;194,833;0,038;0,038;4,5;1,0;4,917;83,333;16,667;87748,052;164689,78;274,667;41,667;8,333;0,0;8,333
