@@ -1,0 +1,9 @@
+{
+  "_hinweis": "Dokumentierte, bewusst fehlerhafte Antworten (manuell erstellt).",
+  "answers": [
+    {"id": "X01", "question_id": "V01", "answer_text": "Die Aufbewahrungsfrist für Einsatzberichte beträgt 5 Jahre.", "expected_label": "faktenfehler", "error_type": "faktenfehler", "ref_score": 1},
+    {"id": "X02", "question_id": "L01", "answer_text": "Auf einen Standard-LKW passen 50 Paletten.", "expected_label": "faktenfehler", "error_type": "faktenfehler", "ref_score": 1},
+    {"id": "X03", "question_id": "M02", "answer_text": "Die Mobilitätsreserve dient dazu, kurzfristige Schwankungen im Stromnetz auszugleichen.", "expected_label": "halluzination", "error_type": "halluzination", "ref_score": 1},
+    {"id": "X04", "question_id": "V03", "answer_text": "Besondere Vorkommnisse müssen innerhalb von 48 Stunden gemeldet werden.", "expected_label": "faktenfehler", "error_type": "faktenfehler", "ref_score": 1}
+  ]
+}

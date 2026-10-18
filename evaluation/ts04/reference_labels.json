@@ -1,0 +1,115 @@
+{
+  "_hinweis": "Format: {id: {score, is_hallucination}}",
+  "V01_qwen3": {
+    "score": 5,
+    "is_hallucination": false
+  },
+  "V02_qwen3": {
+    "score": 5,
+    "is_hallucination": false
+  },
+  "V03_qwen3": {
+    "score": 5,
+    "is_hallucination": false
+  },
+  "E01_qwen3": {
+    "score": 5,
+    "is_hallucination": false
+  },
+  "E02_qwen3": {
+    "score": 5,
+    "is_hallucination": false
+  },
+  "L01_qwen3": {
+    "score": 5,
+    "is_hallucination": false
+  },
+  "L02_qwen3": {
+    "score": 5,
+    "is_hallucination": false
+  },
+  "L03_qwen3": {
+    "score": 5,
+    "is_hallucination": false
+  },
+  "S01_qwen3": {
+    "score": 5,
+    "is_hallucination": false
+  },
+  "S02_qwen3": {
+    "score": 5,
+    "is_hallucination": false
+  },
+  "M01_qwen3": {
+    "score": 5,
+    "is_hallucination": false
+  },
+  "M02_qwen3": {
+    "score": 5,
+    "is_hallucination": false
+  },
+  "V01_mistral_small_4": {
+    "score": 5,
+    "is_hallucination": false
+  },
+  "V02_mistral_small_4": {
+    "score": 5,
+    "is_hallucination": false
+  },
+  "V03_mistral_small_4": {
+    "score": 5,
+    "is_hallucination": false
+  },
+  "E01_mistral_small_4": {
+    "score": 5,
+    "is_hallucination": false
+  },
+  "E02_mistral_small_4": {
+    "score": 5,
+    "is_hallucination": false
+  },
+  "L01_mistral_small_4": {
+    "score": 5,
+    "is_hallucination": false
+  },
+  "L02_mistral_small_4": {
+    "score": 5,
+    "is_hallucination": false
+  },
+  "L03_mistral_small_4": {
+    "score": 5,
+    "is_hallucination": false
+  },
+  "S01_mistral_small_4": {
+    "score": 5,
+    "is_hallucination": false
+  },
+  "S02_mistral_small_4": {
+    "score": 5,
+    "is_hallucination": false
+  },
+  "M01_mistral_small_4": {
+    "score": 5,
+    "is_hallucination": false
+  },
+  "M02_mistral_small_4": {
+    "score": 5,
+    "is_hallucination": false
+  },
+  "X01": {
+    "score": 1,
+    "is_hallucination": false
+  },
+  "X02": {
+    "score": 1,
+    "is_hallucination": false
+  },
+  "X03": {
+    "score": 1,
+    "is_hallucination": false
+  },
+  "X04": {
+    "score": 1,
+    "is_hallucination": false
+  }
+}

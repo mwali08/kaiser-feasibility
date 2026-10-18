@@ -1,0 +1,147 @@
+{
+  "_hinweis": "label: korrekt | fehlerhaft | halluzination; score: 1-5 (optional). Datei zu reference_labels.json umbenennen.",
+  "qwen3|E01|1": {
+    "label": "korrekt",
+    "score": null,
+    "frage": "Welche Mindestangaben muss ein Einsatzbericht enthalten?",
+    "antwort": "Ein Einsatzbericht muss folgende Mindestangaben enthalten: Datum, Uhrzeit, Ort, beteiligte Kräfte, Einsatzanlass, Verlauf sowie Ergebnis."
+  },
+  "qwen3|E02|1": {
+    "label": "korrekt",
+    "score": null,
+    "frage": "Bis wann ist ein Einsatzbericht nach Abschluss eines Einsatzes einzureichen?",
+    "antwort": "Ein Einsatzbericht ist bis zum 5. Werktag nach Abschluss des Einsatzes einzureichen."
+  },
+  "qwen3|L01|1": {
+    "label": "korrekt",
+    "score": null,
+    "frage": "Wie viele Paletten passen auf einen Standard-LKW des Bundesheeres?",
+    "antwort": "33 Paletten passen auf einen Standard-LKW des Bundesheeres."
+  },
+  "qwen3|L02|1": {
+    "label": "korrekt",
+    "score": null,
+    "frage": "Welche Priorität hat Verpflegung in der Nachschubkette?",
+    "antwort": "Verpflegung hat Priorität 1 in der Nachschubkette."
+  },
+  "qwen3|L03|1": {
+    "label": "korrekt",
+    "score": null,
+    "frage": "Wie lange dauert die Lieferkette von der Anforderung bis zur Auslieferung an die Truppe in der Regel?",
+    "antwort": "In der Regel dauert die Lieferkette von der Anforderung bis zur Auslieferung an die Truppe 5 bis 7 Werktage."
+  },
+  "qwen3|M01|1": {
+    "label": "korrekt",
+    "score": null,
+    "frage": "Erkläre in drei Sätzen, was der Unterschied zwischen einem Befehl und einer Weisung ist.",
+    "antwort": "Ein Befehl ist eine Aufforderung, die von einem Benutzer oder einem System an ein Programm oder eine Maschine gerichtet wird, um eine bestimmte Aktion auszuführen. Eine Weisung hingegen ist eine Anweisung, die von einer Autorität oder einem höheren Organ an eine Person oder Organisation erteilt wird"
+  },
+  "qwen3|M02|1": {
+    "label": "fehlerhaft",
+    "score": null,
+    "frage": "Erkläre in zwei Sätzen, was unter 'Mobilitätsreserve' zu verstehen ist.",
+    "antwort": "Die Mobilitätsreserve bezeichnet die maximale Anzahl von Fahrzeugen, die ein Unternehmen oder eine Organisation zur Verfügung stellen kann, um kurzfristige oder unvorhergesehene Mobilitätsbedarfe zu decken. Sie dient als Sicherheitsreserve, um Ausfälle, Planungsfehler oder unerwartete Fahrten zu kom"
+  },
+  "qwen3|S01|1": {
+    "label": "korrekt",
+    "score": null,
+    "frage": "Wie viele Militärkommanden gibt es in Österreich?",
+    "antwort": "Es gibt neun Militärkommandos in Österreich."
+  },
+  "qwen3|S02|1": {
+    "label": "korrekt",
+    "score": null,
+    "frage": "Welche Teilstreitkräfte hat das Österreichische Bundesheer?",
+    "antwort": "Das Österreichische Bundesheer besteht seit 2023 aus drei Teilstreitkräften: Landstreitkräfte, Luftstreitkräfte und Cyber- und Informationsstreitkräfte."
+  },
+  "qwen3|V01|1": {
+    "label": "korrekt",
+    "score": null,
+    "frage": "Wie lange ist die Aufbewahrungsfrist für Einsatzberichte gemäß den geltenden Vorschriften?",
+    "antwort": "Die Aufbewahrungsfrist für Einsatzberichte ist 10 Jahre."
+  },
+  "qwen3|V02|1": {
+    "label": "korrekt",
+    "score": null,
+    "frage": "Wer ist für die Genehmigung der Vernichtung von Einsatzberichten zuständig?",
+    "antwort": "Der Leiter der zuständigen Abteilung ist für die Genehmigung der Vernichtung von Einsatzberichten zuständig."
+  },
+  "qwen3|V03|1": {
+    "label": "fehlerhaft",
+    "score": null,
+    "frage": "Welche Frist gilt für die Meldung von besonderen Vorkommnissen an die vorgesetzte Dienststelle?",
+    "antwort": "Die Frist für die Meldung von besonderen Vorkommnissen an die vorgesetzte Dienststelle beträgt spätestens 24 Stunden."
+  },
+  "mistral_small_4|E01|1": {
+    "label": "korrekt",
+    "score": null,
+    "frage": "Welche Mindestangaben muss ein Einsatzbericht enthalten?",
+    "antwort": "Ein Einsatzbericht muss mindestens die Angaben Datum, Uhrzeit, Ort, beteiligte Kräfte, Einsatzanlass, Verlauf sowie Ergebnis enthalten."
+  },
+  "mistral_small_4|E02|1": {
+    "label": "korrekt",
+    "score": null,
+    "frage": "Bis wann ist ein Einsatzbericht nach Abschluss eines Einsatzes einzureichen?",
+    "antwort": "Der Einsatzbericht muss innerhalb von 5 Werktagen nach Abschluss des Einsatzes einreichen."
+  },
+  "mistral_small_4|L01|1": {
+    "label": "korrekt",
+    "score": null,
+    "frage": "Wie viele Paletten passen auf einen Standard-LKW des Bundesheeres?",
+    "antwort": "33 Paletten passen auf einen Standard-LKW des Bundesheeres."
+  },
+  "mistral_small_4|L02|1": {
+    "label": "korrekt",
+    "score": null,
+    "frage": "Welche Priorität hat Verpflegung in der Nachschubkette?",
+    "antwort": "Die Priorität der Verpflegung in der Nachschubkette ist Priorität 1."
+  },
+  "mistral_small_4|L03|1": {
+    "label": "korrekt",
+    "score": null,
+    "frage": "Wie lange dauert die Lieferkette von der Anforderung bis zur Auslieferung an die Truppe in der Regel?",
+    "antwort": "In der Regel dauert die Lieferkette von der Anforderung bis zur Auslieferung an die Truppe 5 bis 7 Werktage."
+  },
+  "mistral_small_4|M01|1": {
+    "label": "fehlerhaft",
+    "score": null,
+    "frage": "Erkläre in drei Sätzen, was der Unterschied zwischen einem Befehl und einer Weisung ist.",
+    "antwort": "1. Ein Befehl ist eine Anweisung, die von einer höherrangigen Person oder einer Autorität an eine niederrangigere Person oder Untergebene gegeben wird, um eine bestimmte Handlung auszuführen.\n2. Eine Weisung ist eine Anweisung, die von einem Fachmann, Experten oder Experte an eine Person gegeben wir"
+  },
+  "mistral_small_4|M02|1": {
+    "label": "fehlerhaft",
+    "score": null,
+    "frage": "Erkläre in zwei Sätzen, was unter 'Mobilitätsreserve' zu verstehen ist.",
+    "antwort": "Die Mobilitätsreserve bezeichnet die Fähigkeit, sich schnell und unkompliziert auf eine andere Stelle zu bewegen. Dies kann sowohl im Sinne von physischer Bewegung als auch im Sinne von Flexibilität in der Arbeitsorganisation oder im Verkehrswesen gemeint sein."
+  },
+  "mistral_small_4|S01|1": {
+    "label": "korrekt",
+    "score": null,
+    "frage": "Wie viele Militärkommanden gibt es in Österreich?",
+    "antwort": "In Österreich gibt es neun Militärkommanden."
+  },
+  "mistral_small_4|S02|1": {
+    "label": "korrekt",
+    "score": null,
+    "frage": "Welche Teilstreitkräfte hat das Österreichische Bundesheer?",
+    "antwort": "Das Österreichische Bundesheer hat drei Teilstreitkräfte: Landstreitkräfte, Luftstreitkräfte sowie Cyber- und Informationsstreitkräfte."
+  },
+  "mistral_small_4|V01|1": {
+    "label": "korrekt",
+    "score": null,
+    "frage": "Wie lange ist die Aufbewahrungsfrist für Einsatzberichte gemäß den geltenden Vorschriften?",
+    "antwort": "Die Aufbewahrungsfrist für Einsatzberichte beträgt gemäß den geltenden Vorschriften 10 Jahre."
+  },
+  "mistral_small_4|V02|1": {
+    "label": "korrekt",
+    "score": null,
+    "frage": "Wer ist für die Genehmigung der Vernichtung von Einsatzberichten zuständig?",
+    "antwort": "Der Leiter der zuständigen Abteilung ist für die Genehmigung der Vernichtung von Einsatzberichten zuständig."
+  },
+  "mistral_small_4|V03|1": {
+    "label": "fehlerhaft",
+    "score": null,
+    "frage": "Welche Frist gilt für die Meldung von besonderen Vorkommnissen an die vorgesetzte Dienststelle?",
+    "antwort": "Die Frist für die Meldung von besonderen Vorkommnissen an die vorgesetzte Dienststelle beträgt spätestens innerhalb von 24 Stunden."
+  }
+}
