@@ -1,0 +1,4 @@
+﻿framework;lauf;latenz_s;setup_s;tokens_total;tokens_prompt;tokens_completion;llm_anfragen;task_success;korrekturrunden;critic_finales_urteil;fehler;finale_antwort
+CrewAI;1;25,9368951;9,8738543;380;304;76;2;1;0;OK;;Österreich hat 9 Bundesländer. Die Hauptstadt von Südtirol ist Bozen.
+CrewAI;2;12,8083934;2,4111649;380;304;76;2;1;0;OK;;Österreich hat 9 Bundesländer. Die Hauptstadt von Südtirol ist Bozen.
+CrewAI;3;12,8839772;1,9718441;380;304;76;2;1;0;OK;;Österreich hat 9 Bundesländer. Die Hauptstadt von Südtirol ist Bozen.

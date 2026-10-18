@@ -1,0 +1,4 @@
+﻿framework;lauf;latenz_s;setup_s;tokens_total;tokens_prompt;tokens_completion;llm_anfragen;task_success;korrekturrunden;critic_finales_urteil;fehler;finale_antwort
+Microsoft Agent Framework;1;11,6315725;3,1891888;264;188;76;2;1;0;OK;;Österreich hat 9 Bundesländer.   Die Hauptstadt von Südtirol ist Bozen.
+Microsoft Agent Framework;2;12,4303265;0,0116494;264;188;76;2;1;0;OK;;Österreich hat 9 Bundesländer.   Die Hauptstadt von Südtirol ist Bozen.
+Microsoft Agent Framework;3;12,4396803;0,0109067;264;188;76;2;1;0;OK;;Österreich hat 9 Bundesländer.   Die Hauptstadt von Südtirol ist Bozen.

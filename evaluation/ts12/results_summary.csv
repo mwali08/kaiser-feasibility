@@ -1,0 +1,5 @@
+﻿framework;n_laeufe;task_success_pct;latenz_s_mean;latenz_s_std;latenz_s_median;setup_s_mean;tokens_mean;llm_anfragen_mean;korrekturrunden_mean;fehlgeschlagene_laeufe;loc;score_machbarkeit;score_latenz;score_token;score_code
+LangGraph;3;100,0;11,69;0,336;11,557;0,587;264,0;2,0;0,0;0;41,0;1,0;0,962;1,0;1,0
+Microsoft Agent Framework;3;100,0;12,167;0,464;12,43;1,071;264,0;2,0;0,0;0;63,0;1,0;0,925;1,0;0,651
+CrewAI;3;100,0;17,21;7,558;12,884;4,752;380,0;2,0;0,0;0;52,0;1,0;0,654;0,695;0,788
+Haystack;3;100,0;11,25;0,245;11,12;1,29;264,0;2,0;0,0;0;62,0;1,0;1,0;1,0;0,661

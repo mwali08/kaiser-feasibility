@@ -1,0 +1,4 @@
+﻿framework;lauf;latenz_s;setup_s;tokens_total;tokens_prompt;tokens_completion;llm_anfragen;task_success;korrekturrunden;critic_finales_urteil;fehler;finale_antwort
+Haystack;1;11,1197233;3,8657515;264;188;76;2;1;0;OK;;Österreich hat 9 Bundesländer.   Die Hauptstadt von Südtirol ist Bozen.
+Haystack;2;11,0984692;0,0020162;264;188;76;2;1;0;OK;;Österreich hat 9 Bundesländer.   Die Hauptstadt von Südtirol ist Bozen.
+Haystack;3;11,5332331;0,0018714;264;188;76;2;1;0;OK;;Österreich hat 9 Bundesländer.   Die Hauptstadt von Südtirol ist Bozen.
