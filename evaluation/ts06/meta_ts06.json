@@ -1,0 +1,23 @@
+{
+  "q4_K_M": {
+    "ladezeit_ms": 5977.403400000185,
+    "warmup_error": null,
+    "ram_peak_gb": 0.098,
+    "ram_delta_gb": 0.002,
+    "ram_system_delta_gb": 0.0
+  },
+  "q8_0": {
+    "ladezeit_ms": 6373.208699995303,
+    "warmup_error": null,
+    "ram_peak_gb": 0.098,
+    "ram_delta_gb": 0.002,
+    "ram_system_delta_gb": 4.718
+  },
+  "q6_K": {
+    "ladezeit_ms": 5186.630700001842,
+    "warmup_error": null,
+    "ram_peak_gb": 0.097,
+    "ram_delta_gb": 0.001,
+    "ram_system_delta_gb": 3.866
+  }
+}
