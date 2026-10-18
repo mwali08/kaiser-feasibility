@@ -1,0 +1,2 @@
+﻿critic;n_bewertet;antworten_a_fehlerhaft;TP;FP;FN;TN;precision_pct;recall_pct;f1_pct;genauigkeit_pct;ungueltige_critic_ausgaben;korrektheit_gewinn_durch_ueberarbeitung
+prometheus2;12;2;0;1;2;9;0,0;0,0;;75,0;0;0,0

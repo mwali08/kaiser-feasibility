@@ -1,0 +1,6 @@
+﻿variante;bezeichnung;n;ungueltig_pct;korrektheit_mean;korrektheit_std;deutschqualitaet_mean;halluzinationsrate_pct;faktentreffer_pct;cos_zur_referenz_mean;tokens_mean;tokens_std;latenz_ms_mean;latenz_ms_median;latenz_ms_p95;llm_aufrufe_mean;konsens_quote_pct;intra_aehnlichkeit_mean;nutzwert
+A;A Primary allein;12;0,0;4,667;0,778;5,0;16,667;83,333;0,847;42,083;35,839;10639,951;9554,588;18366,516;1,0;;;88,333
+B;B Self-Correction;12;0,0;4,833;0,577;5,0;8,333;91,667;0,845;82,5;61,256;24242,085;19535,126;42448,513;2,0;;;93,864
+C;C Primary + Critic;12;0,0;4,667;0,778;5,0;16,667;83,333;0,848;181,25;101,71;57509,169;51999,14;91878,746;2,083;;;85,654
+D;D Voting homogen;12;0,0;4,667;0,778;5,0;16,667;83,333;0,851;128,5;120,363;25442,405;18894,831;59055,663;3,0;100,0;0,964;87,945
+E;E Voting heterogen;12;0,0;4,667;0,778;5,0;16,667;83,333;0,864;111,0;100,598;32336,432;30707,752;52756,448;3,0;100,0;0,871;87,452

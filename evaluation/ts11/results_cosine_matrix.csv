@@ -1,0 +1,6 @@
+﻿variante;A Primary allein;B Self-Correction;C Primary + Critic;D Voting homogen;E Voting heterogen
+A Primary allein;1,0;0,9587;0,9944;0,9792;0,9846
+B Self-Correction;0,9587;1,0;0,9583;0,9488;0,9552
+C Primary + Critic;0,9944;0,9583;1,0;0,975;0,979
+D Voting homogen;0,9792;0,9488;0,975;1,0;0,9638
+E Voting heterogen;0,9846;0,9552;0,979;0,9638;1,0
