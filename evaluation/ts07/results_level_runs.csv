@@ -1,0 +1,5 @@
+﻿stufe_nutzer;lauf;wall_s;n_anfragen;n_ok;durchsatz_anfragen_min;durchsatz_token_s;ram_peak_gb;ram_delta_gb;ram_system_delta_gb
+1;1;25,35;2;2;4,734;2,761;0,098;0,0;0,055
+2;1;27,347;4;4;8,776;4,315;0,097;0,0;0,024
+4;1;34,076;8;8;14,086;7,219;0,098;0,001;0,009
+8;1;65,845;16;16;14,58;7,138;0,099;0,001;0,06

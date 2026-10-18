@@ -1,0 +1,5 @@
+﻿engine;label;gleichzeitige_anfragen;n_anfragen;n_ok;timeout_rate_pct;fehler_rate_pct;ausfallrate_gesamt_pct;latenz_median_s;latenz_p95_s;ttft_median_s;ttft_p95_s;tps_pro_anfrage_mean;durchsatz_anfragen_min;durchsatz_token_s;durchsatz_token_s_std;ram_peak_gb;ram_system_delta_gb;ziel_erfuellt;erwartete_nutzer_annahme;bewertung_erwartete_nutzer;max_stufe_innerhalb_ziel
+ollama;;1;2;2;0,0;0,0;0,0;12,674;13,193;8,547;8,692;8,541;4,734;2,761;;0,098;0,055;True;4;Stufe 4 (>= erwartete 4 Nutzer): Zielwerte ERFÜLLT;8
+ollama;;2;4;4;0,0;0,0;0,0;11,112;17,573;8,276;14,014;8,375;8,776;4,315;;0,097;0,024;True;4;Stufe 4 (>= erwartete 4 Nutzer): Zielwerte ERFÜLLT;8
+ollama;;4;8;8;0,0;0,0;0,0;14,631;17,077;10,913;13,337;8,151;14,086;7,219;;0,098;0,009;True;4;Stufe 4 (>= erwartete 4 Nutzer): Zielwerte ERFÜLLT;8
+ollama;;8;16;16;0,0;0,0;0,0;28,718;32,621;25,105;29,511;7,701;14,58;7,138;;0,099;0,06;True;4;Stufe 4 (>= erwartete 4 Nutzer): Zielwerte ERFÜLLT;8
