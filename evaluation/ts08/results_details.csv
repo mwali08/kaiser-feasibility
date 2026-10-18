@@ -1,0 +1,73 @@
+﻿router;question_id;repetition;frage;soll;ist;latenz_ms;rohausgabe;error;gueltig;korrekt
+LLM-Router (qwen3);V01;1;Wie lange ist die Aufbewahrungsfrist für Einsatzberichte gemäß den geltenden Vorschriften?;vorschriften;vorschriften;4499,482100000023;vorschriften;;True;True
+Embedding-Router (nomic);V01;1;Wie lange ist die Aufbewahrungsfrist für Einsatzberichte gemäß den geltenden Vorschriften?;vorschriften;vorschriften;2143,2924999971874;max cos=0.664;;True;True
+LLM-Router (qwen3);V02;1;Wer ist für die Genehmigung der Vernichtung von Einsatzberichten zuständig?;vorschriften;vorschriften;4206,326499988791;vorschriften;;True;True
+Embedding-Router (nomic);V02;1;Wer ist für die Genehmigung der Vernichtung von Einsatzberichten zuständig?;vorschriften;einsatzberichte;2113,0380000104196;max cos=0.702;;True;False
+LLM-Router (qwen3);V03;1;Welche Frist gilt für die Meldung von besonderen Vorkommnissen an die vorgesetzte Dienststelle?;vorschriften;vorschriften;5307,504100012011;vorschriften;;True;True
+Embedding-Router (nomic);V03;1;Welche Frist gilt für die Meldung von besonderen Vorkommnissen an die vorgesetzte Dienststelle?;vorschriften;vorschriften;2149,8827999894274;max cos=0.606;;True;True
+LLM-Router (qwen3);E01;1;Welche Mindestangaben muss ein Einsatzbericht enthalten?;einsatzberichte;einsatzberichte;4433,15050000092;einsatzberichte;;True;True
+Embedding-Router (nomic);E01;1;Welche Mindestangaben muss ein Einsatzbericht enthalten?;einsatzberichte;einsatzberichte;2087,243700007093;max cos=0.654;;True;True
+LLM-Router (qwen3);E02;1;Bis wann ist ein Einsatzbericht nach Abschluss eines Einsatzes einzureichen?;einsatzberichte;einsatzberichte;4353,38220000267;einsatzberichte;;True;True
+Embedding-Router (nomic);E02;1;Bis wann ist ein Einsatzbericht nach Abschluss eines Einsatzes einzureichen?;einsatzberichte;einsatzberichte;2112,5972000008915;max cos=0.715;;True;True
+LLM-Router (qwen3);L01;1;Wie viele Paletten passen auf einen Standard-LKW des Bundesheeres?;logistik;logistik;4192,794499991578;logistik;;True;True
+Embedding-Router (nomic);L01;1;Wie viele Paletten passen auf einen Standard-LKW des Bundesheeres?;logistik;logistik;2097,4939000007;max cos=0.626;;True;True
+LLM-Router (qwen3);L02;1;Welche Priorität hat Verpflegung in der Nachschubkette?;logistik;logistik;4192,483799997717;logistik;;True;True
+Embedding-Router (nomic);L02;1;Welche Priorität hat Verpflegung in der Nachschubkette?;logistik;logistik;2087,0035999978427;max cos=0.700;;True;True
+LLM-Router (qwen3);L03;1;Wie lange dauert die Lieferkette von der Anforderung bis zur Auslieferung an die Truppe in der Regel?;logistik;logistik;5023,453300003894;logistik;;True;True
+Embedding-Router (nomic);L03;1;Wie lange dauert die Lieferkette von der Anforderung bis zur Auslieferung an die Truppe in der Regel?;logistik;logistik;2145,0803999905474;max cos=0.609;;True;True
+LLM-Router (qwen3);S01;1;Wie viele Militärkommanden gibt es in Österreich?;strukturen;strukturen;3980,63479999837;strukturen;;True;True
+Embedding-Router (nomic);S01;1;Wie viele Militärkommanden gibt es in Österreich?;strukturen;vorschriften;2143,652500002645;max cos=0.644;;True;False
+LLM-Router (qwen3);S02;1;Welche Teilstreitkräfte hat das Österreichische Bundesheer?;strukturen;strukturen;4171,533600005205;strukturen;;True;True
+Embedding-Router (nomic);S02;1;Welche Teilstreitkräfte hat das Österreichische Bundesheer?;strukturen;strukturen;2119,911999994656;max cos=0.689;;True;True
+LLM-Router (qwen3);M01;1;Erkläre in drei Sätzen, was der Unterschied zwischen einem Befehl und einer Weisung ist.;meinung;meinung;4938,103100008448;meinung;;True;True
+Embedding-Router (nomic);M01;1;Erkläre in drei Sätzen, was der Unterschied zwischen einem Befehl und einer Weisung ist.;meinung;meinung;2119,6014000015566;max cos=0.626;;True;True
+LLM-Router (qwen3);M02;1;Erkläre in zwei Sätzen, was unter 'Mobilitätsreserve' zu verstehen ist.;meinung;meinung;4423,284100004821;meinung;;True;True
+Embedding-Router (nomic);M02;1;Erkläre in zwei Sätzen, was unter 'Mobilitätsreserve' zu verstehen ist.;meinung;strukturen;2133,6313000065275;max cos=0.641;;True;False
+LLM-Router (qwen3);V01;2;Wie lange ist die Aufbewahrungsfrist für Einsatzberichte gemäß den geltenden Vorschriften?;vorschriften;vorschriften;5222,334200007026;vorschriften;;True;True
+Embedding-Router (nomic);V01;2;Wie lange ist die Aufbewahrungsfrist für Einsatzberichte gemäß den geltenden Vorschriften?;vorschriften;vorschriften;2116,729800007306;max cos=0.664;;True;True
+LLM-Router (qwen3);V02;2;Wer ist für die Genehmigung der Vernichtung von Einsatzberichten zuständig?;vorschriften;vorschriften;4739,336099999491;vorschriften;;True;True
+Embedding-Router (nomic);V02;2;Wer ist für die Genehmigung der Vernichtung von Einsatzberichten zuständig?;vorschriften;einsatzberichte;2125,8219000010286;max cos=0.702;;True;False
+LLM-Router (qwen3);V03;2;Welche Frist gilt für die Meldung von besonderen Vorkommnissen an die vorgesetzte Dienststelle?;vorschriften;vorschriften;5464,806100004353;vorschriften;;True;True
+Embedding-Router (nomic);V03;2;Welche Frist gilt für die Meldung von besonderen Vorkommnissen an die vorgesetzte Dienststelle?;vorschriften;vorschriften;2149,411099991994;max cos=0.606;;True;True
+LLM-Router (qwen3);E01;2;Welche Mindestangaben muss ein Einsatzbericht enthalten?;einsatzberichte;einsatzberichte;4461,52890000667;einsatzberichte;;True;True
+Embedding-Router (nomic);E01;2;Welche Mindestangaben muss ein Einsatzbericht enthalten?;einsatzberichte;einsatzberichte;2109,5356000005268;max cos=0.654;;True;True
+LLM-Router (qwen3);E02;2;Bis wann ist ein Einsatzbericht nach Abschluss eines Einsatzes einzureichen?;einsatzberichte;einsatzberichte;4592,656499997247;einsatzberichte;;True;True
+Embedding-Router (nomic);E02;2;Bis wann ist ein Einsatzbericht nach Abschluss eines Einsatzes einzureichen?;einsatzberichte;einsatzberichte;2121,1857000016607;max cos=0.715;;True;True
+LLM-Router (qwen3);L01;2;Wie viele Paletten passen auf einen Standard-LKW des Bundesheeres?;logistik;logistik;4247,955400001956;logistik;;True;True
+Embedding-Router (nomic);L01;2;Wie viele Paletten passen auf einen Standard-LKW des Bundesheeres?;logistik;logistik;2084,1710999957286;max cos=0.626;;True;True
+LLM-Router (qwen3);L02;2;Welche Priorität hat Verpflegung in der Nachschubkette?;logistik;logistik;4490,767499999492;logistik;;True;True
+Embedding-Router (nomic);L02;2;Welche Priorität hat Verpflegung in der Nachschubkette?;logistik;logistik;2103,576499997871;max cos=0.700;;True;True
+LLM-Router (qwen3);L03;2;Wie lange dauert die Lieferkette von der Anforderung bis zur Auslieferung an die Truppe in der Regel?;logistik;logistik;5422,527700007777;logistik;;True;True
+Embedding-Router (nomic);L03;2;Wie lange dauert die Lieferkette von der Anforderung bis zur Auslieferung an die Truppe in der Regel?;logistik;logistik;2101,9902999978513;max cos=0.609;;True;True
+LLM-Router (qwen3);S01;2;Wie viele Militärkommanden gibt es in Österreich?;strukturen;strukturen;4173,429000002216;strukturen;;True;True
+Embedding-Router (nomic);S01;2;Wie viele Militärkommanden gibt es in Österreich?;strukturen;vorschriften;2126,0629999887897;max cos=0.644;;True;False
+LLM-Router (qwen3);S02;2;Welche Teilstreitkräfte hat das Österreichische Bundesheer?;strukturen;strukturen;4562,62080000306;strukturen;;True;True
+Embedding-Router (nomic);S02;2;Welche Teilstreitkräfte hat das Österreichische Bundesheer?;strukturen;strukturen;2104,164899996249;max cos=0.689;;True;True
+LLM-Router (qwen3);M01;2;Erkläre in drei Sätzen, was der Unterschied zwischen einem Befehl und einer Weisung ist.;meinung;meinung;5346,367700010887;meinung;;True;True
+Embedding-Router (nomic);M01;2;Erkläre in drei Sätzen, was der Unterschied zwischen einem Befehl und einer Weisung ist.;meinung;meinung;2129,10199999169;max cos=0.626;;True;True
+LLM-Router (qwen3);M02;2;Erkläre in zwei Sätzen, was unter 'Mobilitätsreserve' zu verstehen ist.;meinung;meinung;4783,451600000262;meinung;;True;True
+Embedding-Router (nomic);M02;2;Erkläre in zwei Sätzen, was unter 'Mobilitätsreserve' zu verstehen ist.;meinung;strukturen;2115,678400004981;max cos=0.641;;True;False
+LLM-Router (qwen3);V01;3;Wie lange ist die Aufbewahrungsfrist für Einsatzberichte gemäß den geltenden Vorschriften?;vorschriften;vorschriften;5655,737999986741;vorschriften;;True;True
+Embedding-Router (nomic);V01;3;Wie lange ist die Aufbewahrungsfrist für Einsatzberichte gemäß den geltenden Vorschriften?;vorschriften;vorschriften;2115,9269000054337;max cos=0.664;;True;True
+LLM-Router (qwen3);V02;3;Wer ist für die Genehmigung der Vernichtung von Einsatzberichten zuständig?;vorschriften;vorschriften;5124,579399998765;vorschriften;;True;True
+Embedding-Router (nomic);V02;3;Wer ist für die Genehmigung der Vernichtung von Einsatzberichten zuständig?;vorschriften;einsatzberichte;2111,580099997809;max cos=0.702;;True;False
+LLM-Router (qwen3);V03;3;Welche Frist gilt für die Meldung von besonderen Vorkommnissen an die vorgesetzte Dienststelle?;vorschriften;vorschriften;5926,9768000085605;vorschriften;;True;True
+Embedding-Router (nomic);V03;3;Welche Frist gilt für die Meldung von besonderen Vorkommnissen an die vorgesetzte Dienststelle?;vorschriften;vorschriften;2123,909800007823;max cos=0.606;;True;True
+LLM-Router (qwen3);E01;3;Welche Mindestangaben muss ein Einsatzbericht enthalten?;einsatzberichte;einsatzberichte;4714,841200009687;einsatzberichte;;True;True
+Embedding-Router (nomic);E01;3;Welche Mindestangaben muss ein Einsatzbericht enthalten?;einsatzberichte;einsatzberichte;2108,3533999917563;max cos=0.654;;True;True
+LLM-Router (qwen3);E02;3;Bis wann ist ein Einsatzbericht nach Abschluss eines Einsatzes einzureichen?;einsatzberichte;einsatzberichte;4896,117700001923;einsatzberichte;;True;True
+Embedding-Router (nomic);E02;3;Bis wann ist ein Einsatzbericht nach Abschluss eines Einsatzes einzureichen?;einsatzberichte;einsatzberichte;2109,8710000078427;max cos=0.715;;True;True
+LLM-Router (qwen3);L01;3;Wie viele Paletten passen auf einen Standard-LKW des Bundesheeres?;logistik;logistik;4518,602000011015;logistik;;True;True
+Embedding-Router (nomic);L01;3;Wie viele Paletten passen auf einen Standard-LKW des Bundesheeres?;logistik;logistik;2121,1954999889713;max cos=0.626;;True;True
+LLM-Router (qwen3);L02;3;Welche Priorität hat Verpflegung in der Nachschubkette?;logistik;logistik;4507,819699996617;logistik;;True;True
+Embedding-Router (nomic);L02;3;Welche Priorität hat Verpflegung in der Nachschubkette?;logistik;logistik;2096,3623999996344;max cos=0.700;;True;True
+LLM-Router (qwen3);L03;3;Wie lange dauert die Lieferkette von der Anforderung bis zur Auslieferung an die Truppe in der Regel?;logistik;logistik;5384,615599992685;logistik;;True;True
+Embedding-Router (nomic);L03;3;Wie lange dauert die Lieferkette von der Anforderung bis zur Auslieferung an die Truppe in der Regel?;logistik;logistik;2096,9468999974197;max cos=0.609;;True;True
+LLM-Router (qwen3);S01;3;Wie viele Militärkommanden gibt es in Österreich?;strukturen;strukturen;4191,586899993126;strukturen;;True;True
+Embedding-Router (nomic);S01;3;Wie viele Militärkommanden gibt es in Österreich?;strukturen;vorschriften;2121,193200000562;max cos=0.644;;True;False
+LLM-Router (qwen3);S02;3;Welche Teilstreitkräfte hat das Österreichische Bundesheer?;strukturen;strukturen;4565,550600003917;strukturen;;True;True
+Embedding-Router (nomic);S02;3;Welche Teilstreitkräfte hat das Österreichische Bundesheer?;strukturen;strukturen;2125,0557000021217;max cos=0.689;;True;True
+LLM-Router (qwen3);M01;3;Erkläre in drei Sätzen, was der Unterschied zwischen einem Befehl und einer Weisung ist.;meinung;meinung;6205,345399997896;meinung;;True;True
+Embedding-Router (nomic);M01;3;Erkläre in drei Sätzen, was der Unterschied zwischen einem Befehl und einer Weisung ist.;meinung;meinung;2141,59970000037;max cos=0.626;;True;True
+LLM-Router (qwen3);M02;3;Erkläre in zwei Sätzen, was unter 'Mobilitätsreserve' zu verstehen ist.;meinung;meinung;4870,107299997471;meinung;;True;True
+Embedding-Router (nomic);M02;3;Erkläre in zwei Sätzen, was unter 'Mobilitätsreserve' zu verstehen ist.;meinung;strukturen;2095,7067999988794;max cos=0.641;;True;False
