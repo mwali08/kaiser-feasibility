@@ -1,0 +1,3 @@
+﻿critic;modell;familie;n_bewertungen;n_gueltig;ungueltig_quote_pct;bewertungsgenauigkeit_pct;halluzination_erkennung_pct;falsch_positiv_rate_pct;token_count_mean;total_latency_ms_mean;total_latency_ms_std;ttft_ms_mean;genauigkeit_gleiche_Familie_pct;genauigkeit_andere_Familie_pct;genauigkeit_manuell_fehlerhaft_pct;ko_bestanden;ko_hinweise;nutzwert;nutzwert_gewichtsabdeckung;rang_nutzwert
+prometheus2;Prometheus 2 (7B);mistral;28;28;0;82,143;100;5,263;133,786;43798,314;12827,377;19540,689;91,667;75;75;True;LF60 Latenz (ms) (Ist: 43798.31);76,298;1;2
+m_prometheus;M-Prometheus (7B);qwen;28;28;0;85,714;100;5,263;128,857;40658,435;9961,899;17051,371;75;91,667;100;True;LF60 Latenz (ms) (Ist: 40658.43);78,493;1;1
