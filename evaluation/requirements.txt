@@ -1,0 +1,12 @@
+openai>=1.40
+anthropic>=0.40
+google-genai>=1.0
+python-dotenv>=1.0
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+seaborn>=0.13
+tqdm>=4.66
+requests>=2.31
+psutil>=5.9
+nvidia-ml-py>=12.0

@@ -1,0 +1,9 @@
+{
+  "qwen3": {"provider": "ollama_native", "model_id": "qwen3:4b-instruct-2507-q4_K_M", "base_url": "http://localhost:11434", "family": "qwen", "display_name": "Qwen3 4B Instruct", "think": false, "vram_gb": 0},
+  "mistral_small_4": {"provider": "ollama_native", "model_id": "mistral:7b", "base_url": "http://localhost:11434", "family": "mistral", "display_name": "Mistral 7B", "think": false, "vram_gb": 0},
+  "gemma3": {"provider": "ollama_native", "model_id": "gemma3:4b", "base_url": "http://localhost:11434", "family": "google", "display_name": "Gemma 3 4B", "think": false, "vram_gb": 0},
+  "llama3": {"provider": "ollama_native", "model_id": "llama3.2:3b", "base_url": "http://localhost:11434", "family": "meta", "display_name": "Llama 3.2 3B", "think": false, "vram_gb": 0},
+  "prometheus2": {"provider": "ollama_native", "model_id": "ggozad/prometheus2:latest", "base_url": "http://localhost:11434", "family": "mistral", "display_name": "Prometheus 2 (7B)", "think": false, "vram_gb": 0},
+  "m_prometheus": {"provider": "ollama_native", "model_id": "hf.co/mradermacher/M-Prometheus-7B-GGUF:Q4_K_M", "base_url": "http://localhost:11434", "family": "qwen", "display_name": "M-Prometheus (7B)", "think": false, "vram_gb": 0},
+  "judge": {"provider": "ollama_native", "model_id": "llama3.1:8b", "base_url": "http://localhost:11434", "family": "meta", "display_name": "Judge (Llama 3.1 8B)", "think": false, "vram_gb": 0}
+}
