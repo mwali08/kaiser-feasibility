@@ -1,0 +1,3 @@
+﻿variante;n_durchlaeufe;n_gueltig;latenz_median_ms;latenz_mean_ms;latenz_std_ms;latenz_p95_ms;ram_peak_gb_mean;ram_peak_gb_max;ram_system_delta_gb_max;token_count_mean;speedup_mean_seq_durch_par;speedup_ci95_unten;speedup_ci95_oben;parallel_schneller_pct
+sequenziell;12;12;13971,18;14529,058;6645,902;25907,026;0,037;0,037;0,231;59,083;;;;
+parallel;12;12;10547,227;12342,039;7425,984;23564,03;0,037;0,037;0,275;58,75;1,676;1,013;2,37;58,333
