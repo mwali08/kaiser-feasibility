@@ -1,0 +1,5 @@
+﻿secondary;primary;n_fakten_paare;n_beide_falsch;n_gleiche_falsche_antwort;gleicher_fehler_pct;p_sec_falsch_wenn_prim_falsch_pct;phi
+gemma3;qwen3;10;0;0;0,0;0,0;
+gemma3;mistral_small_4;10;0;0;0,0;0,0;
+llama3;qwen3;10;1;1;10,0;100,0;1,0
+llama3;mistral_small_4;10;1;1;10,0;100,0;1,0
