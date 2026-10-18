@@ -1,0 +1,31 @@
+[
+  {"id": 1,  "text": "Wie wird das Wetter morgen in Berlin?", "expected_category": "Wetter", "expected_actor": "Primary", "is_oos": false},
+  {"id": 2,  "text": "Regnet es am Wochenende in München?", "expected_category": "Wetter", "expected_actor": "Primary", "is_oos": false},
+  {"id": 3,  "text": "Wie ist das Klima in Spanien?", "expected_category": "Wetter", "expected_actor": "Primary", "is_oos": false},
+
+  {"id": 4,  "text": "Erzähl mir einen Witz.", "expected_category": "Smalltalk", "expected_actor": "Primary", "is_oos": false},
+  {"id": 5,  "text": "Schreibe mir ein Gedicht über Katzen.", "expected_category": "Smalltalk", "expected_actor": "Primary", "is_oos": false},
+  {"id": 6,  "text": "Wie geht es dir heute?", "expected_category": "Smalltalk", "expected_actor": "Primary", "is_oos": false},
+
+  {"id": 7,  "text": "Berechne 15% von 200.", "expected_category": "Finanzen", "expected_actor": "Primary", "is_oos": false},
+  {"id": 8,  "text": "Wie hoch ist die Mehrwertsteuer in Deutschland?", "expected_category": "Finanzen", "expected_actor": "Primary", "is_oos": false},
+  {"id": 9,  "text": "Erstelle eine Bilanz für ein mittelständisches Unternehmen.", "expected_category": "Finanzen", "expected_actor": "Primary", "is_oos": false},
+
+  {"id": 10, "text": "Wie installiere ich Python?", "expected_category": "Technik", "expected_actor": "Primary", "is_oos": false},
+  {"id": 11, "text": "Was ist eine Variable in der Programmierung?", "expected_category": "Technik", "expected_actor": "Primary", "is_oos": false},
+  {"id": 12, "text": "Erkläre mir, wie ein Neuronales Netz funktioniert.", "expected_category": "Technik", "expected_actor": "Primary", "is_oos": false},
+
+  {"id": 13, "text": "Analysiere den Umsatz von Apple 2024 und vergleiche mit Microsoft.", "expected_category": "Finanzen", "expected_actor": "Primary+Secondary", "is_oos": false},
+  {"id": 14, "text": "Erstelle ein technisches Gutachten und fasse es für das Management zusammen.", "expected_category": "Technik", "expected_actor": "Primary+Secondary", "is_oos": false},
+  {"id": 15, "text": "Recherchiere die aktuellen Aktienkurse und berechne den Durchschnitt.", "expected_category": "Finanzen", "expected_actor": "Primary+Secondary", "is_oos": false},
+  {"id": 16, "text": "Erkläre die Relativitätstheorie didaktisch für Schüler.", "expected_category": "Technik", "expected_actor": "Primary+Secondary", "is_oos": false},
+
+  {"id": 17, "text": "Wie repariere ich einen platten Reifen?", "expected_category": "None", "expected_actor": "None", "is_oos": true},
+  {"id": 18, "text": "Bestelle mir eine Pizza mit Salami.", "expected_category": "None", "expected_actor": "None", "is_oos": true},
+  {"id": 19, "text": "Was ist die Hauptstadt von Australien?", "expected_category": "None", "expected_actor": "None", "is_oos": true},
+  {"id": 20, "text": "Welche Schmerztablette hilft gegen Kopfschmerzen?", "expected_category": "None", "expected_actor": "None", "is_oos": true},
+  {"id": 21, "text": "Wie koche ich eine Carbonara?", "expected_category": "None", "expected_actor": "None", "is_oos": true},
+  {"id": 22, "text": "Suche mir ein günstiges Hotel in Paris.", "expected_category": "None", "expected_actor": "None", "is_oos": true},
+  {"id": 23, "text": "Schreibe einen Aufsatz über Goethes Faust.", "expected_category": "None", "expected_actor": "None", "is_oos": true},
+  {"id": 24, "text": "Wie trainiere ich einen Marathon?", "expected_category": "None", "expected_actor": "None", "is_oos": true}
+]

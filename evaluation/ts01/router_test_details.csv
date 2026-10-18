@@ -1,0 +1,79 @@
+﻿model,id,text,expected_cat,parsed_cat,expected_actor,parsed_actor,raw_response,correct,valid_format,is_oos,false_positive,latency_ms
+qwen3:4b,1,Wie wird das Wetter morgen in Berlin?,Wetter,Wetter,Primary,Primary,"{""category"": ""Wetter"", ""actor"": ""Primary""}",True,True,False,False,4205.811500549316
+qwen3:4b,2,Regnet es am Wochenende in München?,Wetter,Wetter,Primary,Primary,"{""category"": ""Wetter"", ""actor"": ""Primary""}",True,True,False,False,3927.4256229400635
+qwen3:4b,3,Wie ist das Klima in Spanien?,Wetter,Wetter,Primary,Primary,"{""category"": ""Wetter"", ""actor"": ""Primary""}",True,True,False,False,4460.865259170532
+qwen3:4b,4,Erzähl mir einen Witz.,Smalltalk,Smalltalk,Primary,Primary,"{""category"": ""Smalltalk"", ""actor"": ""Primary""}",True,True,False,False,4271.8963623046875
+qwen3:4b,5,Schreibe mir ein Gedicht über Katzen.,Smalltalk,Smalltalk,Primary,Primary,"{""category"": ""Smalltalk"", ""actor"": ""Primary""}",True,True,False,False,4889.130592346191
+qwen3:4b,6,Wie geht es dir heute?,Smalltalk,Smalltalk,Primary,Primary,"{""category"": ""Smalltalk"", ""actor"": ""Primary""}",True,True,False,False,4311.361074447632
+qwen3:4b,7,Berechne 15% von 200.,Finanzen,Finanzen,Primary,Primary,"{""category"": ""Finanzen"", ""actor"": ""Primary""}",True,True,False,False,4623.572587966919
+qwen3:4b,8,Wie hoch ist die Mehrwertsteuer in Deutschland?,Finanzen,Finanzen,Primary,Primary,"{""category"": ""Finanzen"", ""actor"": ""Primary""}",True,True,False,False,4695.432186126709
+qwen3:4b,9,Erstelle eine Bilanz für ein mittelständisches Unternehmen.,Finanzen,Finanzen,Primary,Primary,"{""category"": ""Finanzen"", ""actor"": ""Primary""}",True,True,False,False,5115.556955337524
+qwen3:4b,10,Wie installiere ich Python?,Technik,Technik,Primary,Primary,"{""category"": ""Technik"", ""actor"": ""Primary""}",True,True,False,False,4629.603147506714
+qwen3:4b,11,Was ist eine Variable in der Programmierung?,Technik,Technik,Primary,Primary,"{""category"": ""Technik"", ""actor"": ""Primary""}",True,True,False,False,4708.078622817993
+qwen3:4b,12,"Erkläre mir, wie ein Neuronales Netz funktioniert.",Technik,Technik,Primary,Primary,"{""category"": ""Technik"", ""actor"": ""Primary""}",True,True,False,False,4761.088609695435
+qwen3:4b,13,Analysiere den Umsatz von Apple 2024 und vergleiche mit Microsoft.,Finanzen,Finanzen,Primary+Secondary,Primary+Secondary,"{""category"": ""Finanzen"", ""actor"": ""Primary+Secondary""}",True,True,False,False,5576.595306396484
+qwen3:4b,14,Erstelle ein technisches Gutachten und fasse es für das Management zusammen.,Technik,Technik,Primary+Secondary,Primary+Secondary,"{
+  ""category"": ""Technik"",
+  ""actor"": ""Primary+Secondary""
+}",True,True,False,False,5911.697864532471
+qwen3:4b,15,Recherchiere die aktuellen Aktienkurse und berechne den Durchschnitt.,Finanzen,Finanzen,Primary+Secondary,Primary+Secondary,"{""category"": ""Finanzen"", ""actor"": ""Primary+Secondary""}",True,True,False,False,5558.622360229492
+qwen3:4b,16,Erkläre die Relativitätstheorie didaktisch für Schüler.,Technik,Technik,Primary+Secondary,Primary+Secondary,"{
+  ""category"": ""Technik"",
+  ""actor"": ""Primary+Secondary""
+}",True,True,False,False,5842.540264129639
+qwen3:4b,17,Wie repariere ich einen platten Reifen?,None,None,None,None,"{""category"": ""None"", ""actor"": ""None""}",True,True,True,False,4769.390821456909
+qwen3:4b,18,Bestelle mir eine Pizza mit Salami.,None,None,None,None,"{""category"": ""None"", ""actor"": ""None""}",True,True,True,False,4587.790250778198
+qwen3:4b,19,Was ist die Hauptstadt von Australien?,None,None,None,None,"{""category"": ""None"", ""actor"": ""None""}",True,True,True,False,4655.45654296875
+qwen3:4b,20,Welche Schmerztablette hilft gegen Kopfschmerzen?,None,None,None,None,"{""category"": ""None"", ""actor"": ""None""}",True,True,True,False,4821.395635604858
+qwen3:4b,21,Wie koche ich eine Carbonara?,None,None,None,None,"{""category"": ""None"", ""actor"": ""None""}",True,True,True,False,4775.008678436279
+qwen3:4b,22,Suche mir ein günstiges Hotel in Paris.,None,None,None,None,"{""category"": ""None"", ""actor"": ""None""}",True,True,True,False,4678.179740905762
+qwen3:4b,23,Schreibe einen Aufsatz über Goethes Faust.,None,Technik,None,Primary+Secondary,"{""category"": ""Technik"", ""actor"": ""Primary+Secondary""}",False,True,True,True,5153.414726257324
+qwen3:4b,24,Wie trainiere ich einen Marathon?,None,None,None,None,"{""category"": ""None"", ""actor"": ""None""}",True,True,True,False,4623.631715774536
+ministral-3:3b,1,Wie wird das Wetter morgen in Berlin?,Wetter,Wetter,Primary,Primary,"{""category"": ""Wetter"", ""actor"": ""Primary""}",True,True,False,False,4517.324447631836
+ministral-3:3b,2,Regnet es am Wochenende in München?,Wetter,Wetter,Primary,Primary,"{""category"": ""Wetter"", ""actor"": ""Primary""}",True,True,False,False,4592.285394668579
+ministral-3:3b,3,Wie ist das Klima in Spanien?,Wetter,Wetter,Primary,Primary,"{""category"": ""Wetter"", ""actor"": ""Primary""}",True,True,False,False,4527.518033981323
+ministral-3:3b,4,Erzähl mir einen Witz.,Smalltalk,Smalltalk,Primary,Primary,"{""category"": ""Smalltalk"", ""actor"": ""Primary""}",True,True,False,False,4455.2178382873535
+ministral-3:3b,5,Schreibe mir ein Gedicht über Katzen.,Smalltalk,Smalltalk,Primary,Primary,"{""category"": ""Smalltalk"", ""actor"": ""Primary""}",True,True,False,False,4637.15124130249
+ministral-3:3b,6,Wie geht es dir heute?,Smalltalk,Smalltalk,Primary,Primary,"{""category"": ""Smalltalk"", ""actor"": ""Primary""}",True,True,False,False,4462.326526641846
+ministral-3:3b,7,Berechne 15% von 200.,Finanzen,Finanzen,Primary,Primary,"{
+  ""category"": ""Finanzen"",
+  ""actor"": ""Primary""
+}",True,True,False,False,5313.4753704071045
+ministral-3:3b,8,Wie hoch ist die Mehrwertsteuer in Deutschland?,Finanzen,Finanzen,Primary,Primary,"{""category"": ""Finanzen"", ""actor"": ""Primary""}",True,True,False,False,4677.562475204468
+ministral-3:3b,9,Erstelle eine Bilanz für ein mittelständisches Unternehmen.,Finanzen,Finanzen,Primary,Primary,"{
+  ""category"": ""Finanzen"",
+  ""actor"": ""Primary""
+}",True,True,False,False,5469.809055328369
+ministral-3:3b,10,Wie installiere ich Python?,Technik,Technik,Primary,Primary,"{""category"": ""Technik"",
+""actor"": ""Primary""}",True,True,False,False,5386.039733886719
+ministral-3:3b,11,Was ist eine Variable in der Programmierung?,Technik,Technik,Primary,Primary,"{""category"": ""Technik"",
+""actor"": ""Primary""}",True,True,False,False,5556.814670562744
+ministral-3:3b,12,"Erkläre mir, wie ein Neuronales Netz funktioniert.",Technik,Technik,Primary,Primary,"{""category"": ""Technik"",
+""actor"": ""Primary""}",True,True,False,False,5713.503837585449
+ministral-3:3b,13,Analysiere den Umsatz von Apple 2024 und vergleiche mit Microsoft.,Finanzen,Finanzen,Primary+Secondary,Primary+Secondary,"{""category"": ""Finanzen"",
+""actor"": ""Primary+Secondary""}",True,True,False,False,6689.097166061401
+ministral-3:3b,14,Erstelle ein technisches Gutachten und fasse es für das Management zusammen.,Technik,Technik,Primary+Secondary,None,"{
+  ""category"": ""Technik"",
+  ""actor"": ""None""
+}",False,True,False,False,6707.084894180298
+ministral-3:3b,15,Recherchiere die aktuellen Aktienkurse und berechne den Durchschnitt.,Finanzen,Finanzen,Primary+Secondary,Primary+Secondary,"{
+  ""category"": ""Finanzen"",
+  ""actor"": ""Primary+Secondary""
+}",True,True,False,False,7014.578342437744
+ministral-3:3b,16,Erkläre die Relativitätstheorie didaktisch für Schüler.,Technik,Technik,Primary+Secondary,Primary+Secondary,"{
+  ""category"": ""Technik"",
+  ""actor"": ""Primary+Secondary""
+}",True,True,False,False,7097.3498821258545
+ministral-3:3b,17,Wie repariere ich einen platten Reifen?,None,None,None,None,"{""category"": ""None"", ""actor"": ""None""}",True,True,True,False,5507.700443267822
+ministral-3:3b,18,Bestelle mir eine Pizza mit Salami.,None,None,None,None,"{""category"": ""None"", ""actor"": ""None""}",True,True,True,False,5366.935253143311
+ministral-3:3b,19,Was ist die Hauptstadt von Australien?,None,None,None,None,"{""category"": ""None"", ""actor"": ""None""}",True,True,True,False,5171.319961547852
+ministral-3:3b,20,Welche Schmerztablette hilft gegen Kopfschmerzen?,None,Technik,None,Primary,"{""category"": ""Technik"",
+""actor"": ""Primary""}",False,True,True,True,5707.978963851929
+ministral-3:3b,21,Wie koche ich eine Carbonara?,None,None,None,MISSING,"{""category"": ""None""}",False,False,True,False,4262.139320373535
+ministral-3:3b,22,Suche mir ein günstiges Hotel in Paris.,None,None,None,None,"{""category"": ""None"", ""actor"": ""None""}",True,True,True,False,5330.177068710327
+ministral-3:3b,23,Schreibe einen Aufsatz über Goethes Faust.,None,Technik,None,None,"{
+  ""category"": ""Technik"",
+  ""actor"": ""None""
+}",False,True,True,True,6644.349575042725
+ministral-3:3b,24,Wie trainiere ich einen Marathon?,None,Technik,None,Primary+Secondary,"{""category"": ""Technik"",
+""actor"": ""Primary+Secondary""}",False,True,True,True,5775.387287139893
